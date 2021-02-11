@@ -1,0 +1,91 @@
+body{
+    background-color: #3399cc;
+    border: 10px solid #2b81ac;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: auto auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header,main,footer{
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    padding: 0px 0 15px 0;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.block{
+    border: 2px solid #ffffff;
+    padding: 20px 0;
+}
+.block p, span{
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.ba-cities{
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    border: 2px solid #ffffff;
+}
+.ba-cities li{
+    display: inline-block;
+    background: orange;
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    width: 25%;
+}
+li:first-child{
+    width: 50%;
+    background-color: #3399CC;
+}
+li:nth-child(2){
+    background-color: #33CCCC;
+}
+li:nth-child(3){
+    background-color: #996699;
+}
+li:nth-child(4){
+    background-color: #C24747;
+}
+li:nth-child(5){
+    background-color: #E87145;
+}
+li:nth-child(6){
+    background-color: #FFCC66;
+}
+li:nth-child(7){
+    background-color: #93C395;
+}
+li:nth-child(8){
+    background-color: #5E9494;
+}
+li:nth-child(9){
+    width: 50%;
+    background-color: #CF7294;
+}
+li:nth-child(10){
+    background-color: #2A8C62;
+}
+li:last-child{
+    width: 100%;
+    background-color: #5A5F88;
+}
+ul:hover li{
+    opacity: 0.7;
+    transition: all .1s ease-in;
+}
+ul:hover li:hover {
+    opacity: 1;
+}
+
